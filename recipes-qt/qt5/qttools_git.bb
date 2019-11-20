@@ -42,3 +42,5 @@ do_install_ptest() {
     cp ${B}/tests/auto/qtdiag/tst_tdiag $t
     cp ${B}/tests/auto/qtattributionsscanner/tst_qtattributionsscanner $t
 }
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

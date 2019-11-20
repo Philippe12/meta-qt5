@@ -13,3 +13,5 @@ LIC_FILES_CHKSUM = " \
 DEPENDS += "qtbase qtdeclarative"
 
 SRCREV = "8fd13b71e50d0935af69e70f1961ac8194cb6fb3"
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

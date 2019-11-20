@@ -29,3 +29,4 @@ SRCREV = "e74c6fee102c228da060f3899610e4449bc1851a"
 
 BBCLASSEXTEND =+ "native nativesdk"
 
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

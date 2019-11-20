@@ -73,3 +73,5 @@ do_install_append() {
         done
     fi
 }
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

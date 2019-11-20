@@ -38,3 +38,5 @@ SRC_URI += "\
 LDFLAGS_append_x86 = "${@bb.utils.contains('DISTRO_FEATURES', 'ld-is-gold', ' -fuse-ld=bfd ', '', d)}"
 
 SRCREV = "53a507b30befc40a4d06a1620e85bb4a5b1bf40a"
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

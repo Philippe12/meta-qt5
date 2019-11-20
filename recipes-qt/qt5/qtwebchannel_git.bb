@@ -13,3 +13,5 @@ LIC_FILES_CHKSUM = " \
 DEPENDS += "qtdeclarative qtwebsockets"
 
 SRCREV = "77af92deffa9aeb8a5f85f1e73c3f110d24f7f40"
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

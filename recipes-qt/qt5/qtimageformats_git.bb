@@ -26,3 +26,5 @@ PACKAGECONFIG[libwebp] = ",CONFIG+=done_config_libwebp,libwebp"
 EXTRA_QMAKEVARS_PRE += "${PACKAGECONFIG_CONFARGS}"
 
 SRCREV = "dad286f15b75f36f37d4523ac86696e5133e58cb"
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"

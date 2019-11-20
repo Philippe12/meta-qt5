@@ -11,3 +11,5 @@ LIC_FILES_CHKSUM = " \
 DEPENDS += "qtdeclarative qtdeclarative-native"
 
 SRCREV = "ed92154c712b0e54caa5baa72d832d7f8286307f"
+
+QT_MODULE_BRANCH_PARAM = "nobranch=1"
