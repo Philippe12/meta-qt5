@@ -15,5 +15,3 @@ SRCREV = "969fc5bf94e8e0e6cd86c79c38e11074de235273"
 LDFLAGS_append_x86 = "${@bb.utils.contains('DISTRO_FEATURES', 'ld-is-gold', ' -fuse-ld=bfd ', '', d)}"
 
 PACKAGECONFIG ?= "qtquickcompiler"
-
-QT_MODULE_BRANCH_PARAM = "nobranch=1"

@@ -143,5 +143,3 @@ do_install() {
 }
 
 SRCREV = "f0b93f7a4b4281c5470280eb36b7c0ef5948a921"
-
-QT_MODULE_BRANCH_PARAM = "nobranch=1"

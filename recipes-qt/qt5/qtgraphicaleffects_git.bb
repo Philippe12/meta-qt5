@@ -19,5 +19,3 @@ RDEPENDS_${PN}-dev = ""
 LDFLAGS_append_x86 = "${@bb.utils.contains('DISTRO_FEATURES', 'ld-is-gold', ' -fuse-ld=bfd ', '', d)}"
 
 SRCREV = "7ce8cd84f7f8ce8d0377019f7087b2352b5626e7"
-
-QT_MODULE_BRANCH_PARAM = "nobranch=1"
